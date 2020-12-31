@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="baseline_step1">#40798C</color>
+    <color name="baseline_step2">#70A9A1</color>
+    <color name="baseline_step3">#CFD7C7</color>
+    <color name="baseline_step4">#F6F1D1</color>
+
+    <color name="variant1_step1">#BAF2D8</color>
+    <color name="variant1_step2">#BAD7F2</color>
+    <color name="variant1_step3">#F2BAC9</color>
+    <color name="variant1_step4">#BAF2BB</color>
+
+
+    <color name="variant2_step2">#BF98A0</color>
+    <color name="variant2_step4">#BCCCE0</color>
+
+</resources>

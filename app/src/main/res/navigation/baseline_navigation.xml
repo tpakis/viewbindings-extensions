@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baseline_navigation"
+    app:startDestination="@id/step1Fragment">
+
+    <fragment
+        android:id="@+id/step1Fragment"
+        android:name="com.example.viewbindingsext.ui.abtest.fragments.Step1Fragment"
+        tools:layout="@layout/fragment_step1_baseline"
+        android:label="Step1Fragment">
+        <action
+            android:id="@+id/next"
+            app:destination="@id/step2Fragment">
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/step2Fragment"
+        tools:layout="@layout/fragment_step2_baseline"
+        android:name="com.example.viewbindingsext.ui.abtest.fragments.Step2Fragment"
+        android:label="Step2Fragment">
+        <action
+            android:id="@+id/next"
+            app:destination="@id/step3Fragment">
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/step3Fragment"
+        tools:layout="@layout/fragment_step3_baseline"
+        android:name="com.example.viewbindingsext.ui.abtest.fragments.Step3Fragment"
+        android:label="Step3Fragment">
+        <action
+            android:id="@+id/next"
+            app:destination="@id/step4Fragment">
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/step4Fragment"
+        tools:layout="@layout/fragment_step4_baseline"
+        android:name="com.example.viewbindingsext.ui.abtest.fragments.Step4Fragment"
+        android:label="Step4Fragment">
+    </fragment>
+</navigation>

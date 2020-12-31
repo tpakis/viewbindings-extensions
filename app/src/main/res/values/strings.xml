@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Viewbindings-Extensions</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="end_step">End Step %1$d</string>
+
+    <string name="start_test_baseline">Baseline</string>
+    <string name="start_test_variation1">Variation 1</string>
+    <string name="start_test_variation2">Variation 2</string>
+</resources>
