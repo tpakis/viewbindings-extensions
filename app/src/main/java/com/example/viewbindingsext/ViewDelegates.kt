@@ -20,7 +20,7 @@ class BindViewDelegate<T>(
         get() = try {
             getLifecycle()
         } catch (e: IllegalStateException) {
-            Log.e("BindViewDelegate", e.localizedMessage)
+            Log.e("BindViewDelegate", e.message)
             null
         }
 
